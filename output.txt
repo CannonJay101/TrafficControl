@@ -1,0 +1,89 @@
+[2024-12-21 06:55:43 UTC] iverilog '-Wall' '-g2012' design.sv testbench.sv  && unbuffer vvp a.out  
+warning: Some design elements have no explicit time unit and/or
+       : time precision. This may cause confusing timing results.
+       : Affected design elements are:
+       :   -- module traffic_control declared here: design.sv:2
+--------------------------------------------------
+---------------- SIMULATION START ----------------
+--------------------------------------------------
+TIME =                    0 | reset = 0 | sensor = 0 | Highway Light = 1 | Farm Light = 4
+TIME =               200000 | reset = 1 | sensor = 0 | Highway Light = 1 | Farm Light = 4
+TIME =              1000000 | reset = 1 | sensor = 1 | Highway Light = 1 | Farm Light = 4
+TIME =              1050000 | reset = 1 | sensor = 1 | Highway Light = 2 | Farm Light = 4
+TIME =              1150000 | reset = 1 | sensor = 1 | Highway Light = 4 | Farm Light = 1
+TIME =              1250000 | reset = 1 | sensor = 1 | Highway Light = 4 | Farm Light = 2
+TIME =              1350000 | reset = 1 | sensor = 1 | Highway Light = 1 | Farm Light = 4
+TIME =              1450000 | reset = 1 | sensor = 1 | Highway Light = 2 | Farm Light = 4
+TIME =              1550000 | reset = 1 | sensor = 1 | Highway Light = 4 | Farm Light = 1
+TIME =              1650000 | reset = 1 | sensor = 1 | Highway Light = 4 | Farm Light = 2
+TIME =              1750000 | reset = 1 | sensor = 1 | Highway Light = 1 | Farm Light = 4
+TIME =              1850000 | reset = 1 | sensor = 1 | Highway Light = 2 | Farm Light = 4
+TIME =              1950000 | reset = 1 | sensor = 1 | Highway Light = 4 | Farm Light = 1
+TIME =              2050000 | reset = 1 | sensor = 1 | Highway Light = 4 | Farm Light = 2
+TIME =              2150000 | reset = 1 | sensor = 1 | Highway Light = 1 | Farm Light = 4
+TIME =              2250000 | reset = 1 | sensor = 1 | Highway Light = 2 | Farm Light = 4
+TIME =              2350000 | reset = 1 | sensor = 1 | Highway Light = 4 | Farm Light = 1
+TIME =              2450000 | reset = 1 | sensor = 1 | Highway Light = 4 | Farm Light = 2
+TIME =              2550000 | reset = 1 | sensor = 1 | Highway Light = 1 | Farm Light = 4
+TIME =              2650000 | reset = 1 | sensor = 1 | Highway Light = 2 | Farm Light = 4
+TIME =              2750000 | reset = 1 | sensor = 1 | Highway Light = 4 | Farm Light = 1
+TIME =              2850000 | reset = 1 | sensor = 1 | Highway Light = 4 | Farm Light = 2
+TIME =              2950000 | reset = 1 | sensor = 1 | Highway Light = 1 | Farm Light = 4
+TIME =              3050000 | reset = 1 | sensor = 1 | Highway Light = 2 | Farm Light = 4
+TIME =              3150000 | reset = 1 | sensor = 1 | Highway Light = 4 | Farm Light = 1
+TIME =              3250000 | reset = 1 | sensor = 1 | Highway Light = 4 | Farm Light = 2
+TIME =              3350000 | reset = 1 | sensor = 1 | Highway Light = 1 | Farm Light = 4
+TIME =              3450000 | reset = 1 | sensor = 1 | Highway Light = 2 | Farm Light = 4
+TIME =              3550000 | reset = 1 | sensor = 1 | Highway Light = 4 | Farm Light = 1
+TIME =              3650000 | reset = 1 | sensor = 1 | Highway Light = 4 | Farm Light = 2
+TIME =              3750000 | reset = 1 | sensor = 1 | Highway Light = 1 | Farm Light = 4
+TIME =              3850000 | reset = 1 | sensor = 1 | Highway Light = 2 | Farm Light = 4
+TIME =              3950000 | reset = 1 | sensor = 1 | Highway Light = 4 | Farm Light = 1
+TIME =              4000000 | reset = 1 | sensor = 0 | Highway Light = 4 | Farm Light = 1
+TIME =              6000000 | reset = 1 | sensor = 1 | Highway Light = 4 | Farm Light = 1
+TIME =              6050000 | reset = 1 | sensor = 1 | Highway Light = 4 | Farm Light = 2
+TIME =              6150000 | reset = 1 | sensor = 1 | Highway Light = 1 | Farm Light = 4
+TIME =              6250000 | reset = 1 | sensor = 1 | Highway Light = 2 | Farm Light = 4
+TIME =              6350000 | reset = 1 | sensor = 1 | Highway Light = 4 | Farm Light = 1
+TIME =              6450000 | reset = 1 | sensor = 1 | Highway Light = 4 | Farm Light = 2
+TIME =              6550000 | reset = 1 | sensor = 1 | Highway Light = 1 | Farm Light = 4
+TIME =              6650000 | reset = 1 | sensor = 1 | Highway Light = 2 | Farm Light = 4
+TIME =              6750000 | reset = 1 | sensor = 1 | Highway Light = 4 | Farm Light = 1
+TIME =              6850000 | reset = 1 | sensor = 1 | Highway Light = 4 | Farm Light = 2
+TIME =              6950000 | reset = 1 | sensor = 1 | Highway Light = 1 | Farm Light = 4
+TIME =              7050000 | reset = 1 | sensor = 1 | Highway Light = 2 | Farm Light = 4
+TIME =              7150000 | reset = 1 | sensor = 1 | Highway Light = 4 | Farm Light = 1
+TIME =              7250000 | reset = 1 | sensor = 1 | Highway Light = 4 | Farm Light = 2
+TIME =              7350000 | reset = 1 | sensor = 1 | Highway Light = 1 | Farm Light = 4
+TIME =              7450000 | reset = 1 | sensor = 1 | Highway Light = 2 | Farm Light = 4
+TIME =              7550000 | reset = 1 | sensor = 1 | Highway Light = 4 | Farm Light = 1
+TIME =              7650000 | reset = 1 | sensor = 1 | Highway Light = 4 | Farm Light = 2
+TIME =              7750000 | reset = 1 | sensor = 1 | Highway Light = 1 | Farm Light = 4
+TIME =              7850000 | reset = 1 | sensor = 1 | Highway Light = 2 | Farm Light = 4
+TIME =              7950000 | reset = 1 | sensor = 1 | Highway Light = 4 | Farm Light = 1
+TIME =              8050000 | reset = 1 | sensor = 1 | Highway Light = 4 | Farm Light = 2
+TIME =              8150000 | reset = 1 | sensor = 1 | Highway Light = 1 | Farm Light = 4
+TIME =              8250000 | reset = 1 | sensor = 1 | Highway Light = 2 | Farm Light = 4
+TIME =              8350000 | reset = 1 | sensor = 1 | Highway Light = 4 | Farm Light = 1
+TIME =              8450000 | reset = 1 | sensor = 1 | Highway Light = 4 | Farm Light = 2
+TIME =              8550000 | reset = 1 | sensor = 1 | Highway Light = 1 | Farm Light = 4
+TIME =              8650000 | reset = 1 | sensor = 1 | Highway Light = 2 | Farm Light = 4
+TIME =              8750000 | reset = 1 | sensor = 1 | Highway Light = 4 | Farm Light = 1
+TIME =              8850000 | reset = 1 | sensor = 1 | Highway Light = 4 | Farm Light = 2
+TIME =              8950000 | reset = 1 | sensor = 1 | Highway Light = 1 | Farm Light = 4
+TIME =              9050000 | reset = 1 | sensor = 1 | Highway Light = 2 | Farm Light = 4
+TIME =              9150000 | reset = 1 | sensor = 1 | Highway Light = 4 | Farm Light = 1
+TIME =              9250000 | reset = 1 | sensor = 1 | Highway Light = 4 | Farm Light = 2
+TIME =              9350000 | reset = 1 | sensor = 1 | Highway Light = 1 | Farm Light = 4
+TIME =              9450000 | reset = 1 | sensor = 1 | Highway Light = 2 | Farm Light = 4
+TIME =              9550000 | reset = 1 | sensor = 1 | Highway Light = 4 | Farm Light = 1
+TIME =              9650000 | reset = 1 | sensor = 1 | Highway Light = 4 | Farm Light = 2
+TIME =              9750000 | reset = 1 | sensor = 1 | Highway Light = 1 | Farm Light = 4
+TIME =              9850000 | reset = 1 | sensor = 1 | Highway Light = 2 | Farm Light = 4
+TIME =              9950000 | reset = 1 | sensor = 1 | Highway Light = 4 | Farm Light = 1
+TIME =             10000000 | reset = 1 | sensor = 0 | Highway Light = 4 | Farm Light = 1
+--------------------------------------------------
+---------------- SIMULATION END ------------------
+--------------------------------------------------
+testbench.sv:63: $finish called at 20000000 (1ps)
+Done
